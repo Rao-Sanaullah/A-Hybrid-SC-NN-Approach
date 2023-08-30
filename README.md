@@ -4,7 +4,11 @@ In this article, we propose a novel standalone hybrid Spiking-Convolutional Neur
 
 The hybrid approach aims to create a more comprehensive and biologically inspired model that can effectively handle complex inpainting tasks. Therefore, The fusion of SNN and CNN architectures enables the model to capture both the local and temporal aspects of visual data, potentially leading to improved performance and more efficient processing in tasks such as image inpainting.
 
-In below attached Figure, The test images containing a missing or corrupted region and the model attempt to restore the missing part of the image using the hybrid SC-NN approach.
+The attached Figure (a) computes the membrane potential, generates spikes when the potential crosses the threshold, resets potential, and produces output. Also, Figure (b) demonstrates the equivalent circuit model of the LIF neural model.
+
+![LIF Model](https://github.com/Rao-Sanaullah/A-Hybrid-SC-NN-Approach/blob/main/lif.png)
+
+In the attached Figure, the test images containing a missing or corrupted region and the model attempt to restore the missing part of the image using the hybrid SC-NN approach.
 
 ![Test Image](https://github.com/Rao-Sanaullah/A-Hybrid-SC-NN-Approach/blob/main/2.png)
 
